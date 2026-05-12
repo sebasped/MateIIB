@@ -1,5 +1,5 @@
 ---
-title: No9 -PINNs Pt2
+title: No9 - PINNs Pt2
 ---
 
 # Physics-Informend Neural Networks (PINNs)
