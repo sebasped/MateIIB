@@ -1,6 +1,6 @@
 # Anuncios
 
-:::{important} 13/05/2026 - No hay clases
+:::{important} 13/05/2026 - Semana sin clases
 :class: dropdown
 Queridos estudiantes,
 
