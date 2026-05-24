@@ -104,7 +104,7 @@ Estos avances permiten combinar modelos físicos tradicionales con herramientas 
 
 ## ¿Física o Datos?
 
-Pondremos en práctica lo que se conoce como **modelado híbrido**.
+Pondremos en práctica lo que se conoce como {term}`Modelado híbrido`.
 El modelado híbrido combina modelos físicos tradicionales con herramientas modernas de aprendizaje automático.
 
 ```{figure} figures/ModeladoHibrido.png
@@ -154,7 +154,7 @@ Vamos a hacer énfasis en software abierto
 :::
 ---
 ## Introducción a Physics-Informed Machine Learning (PIML)
-El **PIML** es una disciplina donde convergen tres conceptos principales:
+El {term}`PIML <Physics Informed Machine Learning (PIML)>` es una disciplina donde convergen tres conceptos principales:
 * **Modelado físico**: ecuaciones diferenciales que modelan la física del problema.
 * **Aprendizaje automático**: algoritmos de *machine learning*.
 * **Simulaciones numéricas**: para resolver las ecuaciones diferenciales ya mencionadas.
