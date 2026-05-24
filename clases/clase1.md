@@ -187,3 +187,326 @@ name: fig-pinn
 ---
 Aproximación de la solución del problema del oscilador armónico amortiguado usando PIML entrenado en los puntos naranjas de la curva.
 ```
+:::
+---
+
+## Diferentes métodos dentro del SciML
+
+Dentro del **Scientific Machine Learning (SciML)** se pueden distinguir tres formas principales de combinar datos, aprendizaje automático y leyes físicas.
+
+```{figure} figures/fig-sciml-methods.png
+---
+width: 85%
+name: fig-sciml-methods
+---
+Tres categorías principales dentro del SciML: métodos puramente basados en datos, restricciones físicas suaves y restricciones físicas fuertes.
+```
+
+La diferencia central entre estas estrategias está en **cómo aparece la física dentro del modelo**.
+
+En un enfoque **data-driven**, el modelo aprende directamente desde datos. La física no aparece de manera explícita, sino que queda implícita en los ejemplos utilizados para entrenar.
+
+En un enfoque con **restricciones suaves**, la física aparece como un término adicional en la función de pérdida. El modelo no está obligado a satisfacer exactamente la ecuación diferencial, pero es penalizado cuando se aleja de ella.
+
+En un enfoque con **restricciones fuertes**, la física forma parte de la estructura misma del modelo. La red neuronal se integra dentro de una ecuación diferencial, un solver numérico o una simulación diferenciable.
+
+
+### Problemas directos e inversos
+
+En el modelado físico aparecen dos tipos de problemas fundamentales: los **problemas directos** y los **problemas inversos**.
+
+```{figure} figures/forward-inverse.png
+---
+width: 75%
+name: fig-forward-inverse
+---
+Comparación entre un problema directo y un problema inverso.
+```
+
+Un **problema directo** consiste en predecir el estado de un sistema o su evolución temporal a partir de condiciones iniciales, parámetros y leyes físicas conocidas.
+
+Por ejemplo, si conocemos el espesor inicial de un glaciar, su geometría, ciertas condiciones climáticas y una ley de movimiento, podemos intentar predecir cómo evolucionará en el tiempo.
+
+Un **problema inverso**, en cambio, parte de observaciones y busca inferir parámetros, estados ocultos o leyes del sistema.
+
+:::{note} Ejemplo: Aplicado a glaciares
+En glaciología, un problema inverso típico sería estimar parámetros relacionados con la fricción basal, el deslizamiento del hielo o la geometría de la roca subyacente a partir de observaciones satelitales de velocidad, espesor o elevación.
+:::
+
+
+### 1. Aprendizaje automático de sistemas físicos
+
+El primer enfoque consiste en usar aprendizaje automático para aproximar directamente la relación entre entradas y salidas de un sistema físico.
+
+```{figure} figures/data-driven-physical-systems.png
+---
+width: 80%
+name: fig-data-driven-physical-systems
+---
+Ejemplo de aprendizaje automático aplicado a sistemas físicos.
+```
+
+La idea principal es reemplazar, aproximar o acelerar una simulación costosa mediante un modelo entrenado con datos.
+
+En lugar de resolver una ecuación diferencial compleja cada vez que se necesita una predicción, se entrena una red neuronal para aprender una aproximación de la solución.
+
+$$
+\text{condiciones iniciales} \longmapsto \text{estado futuro del sistema}.
+$$
+
+Esto permite obtener predicciones mucho más rápidas, aunque con una limitación importante: el modelo depende fuertemente de los datos con los que fue entrenado.
+
+:::{warning}
+El riesgo principal de este enfoque es que el modelo puede fallar al extrapolar fuera del régimen observado durante el entrenamiento.
+:::
+
+
+### 2. Leyes físicas impuestas de manera suave
+
+El segundo enfoque consiste en incorporar la física como una penalización dentro de la función objetivo.
+
+```{figure} figures/soft-constraints-pinn.png
+---
+width: 80%
+name: fig-soft-constraints-pinn
+---
+Ejemplo de incorporación de leyes físicas mediante restricciones suaves.
+```
+
+En este caso, el modelo se entrena minimizando una pérdida de la forma
+
+$$
+\mathcal{L}(\theta)
+=
+\mathcal{L}_{\text{datos}}(\theta)
++
+\lambda \mathcal{L}_{\text{física}}(\theta).
+$$
+
+El primer término mide qué tan bien el modelo ajusta los datos observados. El segundo término mide qué tan bien respeta la ecuación diferencial que describe el sistema.
+
+Por ejemplo, si una ecuación física tiene la forma
+
+$$
+F(u) = 0,
+$$
+
+entonces podemos penalizar al modelo cuando su predicción no cumple esa ecuación:
+
+$$
+\mathcal{L}_{\text{física}}(\theta)
+=
+\|F(u_\theta)\|^2.
+$$
+
+Este es el principio detrás de las **Physics-Informed Neural Networks (PINNs)**.
+
+La física no se impone exactamente, sino que se introduce como una restricción suave: el modelo puede violarla, pero paga un costo por hacerlo.
+
+:::{important}
+La elección de $\lambda$ es importante: si es demasiado chico, el modelo ignora la física; si es demasiado grande, puede ajustar mal los datos.
+:::
+
+
+
+### 3. Leyes físicas impuestas de manera fuerte
+
+El tercer enfoque consiste en imponer la física directamente dentro de la estructura del modelo.
+
+```{figure} figures/hard-constraints-ude.png
+---
+width: 80%
+name: fig-hard-constraints-ude
+---
+Ejemplo de modelo híbrido donde una red neuronal se integra dentro de un solver físico.
+```
+
+En este caso, no se agrega simplemente una penalización física a la función de pérdida. En cambio, el modelo se construye de forma tal que la evolución del sistema debe pasar por una ecuación diferencial o un solver numérico.
+
+Una forma general de escribir este enfoque es
+
+$$
+\frac{du}{dt} = f(u,t,\theta),
+$$
+
+donde una parte de $f$ puede ser conocida por la física y otra parte puede ser aprendida mediante una red neuronal.
+
+Por ejemplo,
+
+$$
+\frac{du}{dt}
+=
+f_{\text{física}}(u,t)
++
+f_{\text{NN}}(u,t;\theta).
+$$
+
+La red neuronal aprende la parte desconocida del modelo, pero la evolución completa sigue estando gobernada por una ecuación diferencial.
+
+Estos modelos suelen llamarse **Universal Differential Equations (UDEs)**.
+
+
+---
+---
+
+## Ecuaciones diferenciales universales (UDE)
+
+Las **ecuaciones diferenciales universales** introducen una red neuronal dentro de una ecuación diferencial.
+
+
+La idea central es utilizar la mayor cantidad posible de conocimiento físico existente y usar modelos basados en datos sólo para las partes de la ecuación que necesitan ser aprendidas o extendidas.
+
+En este enfoque, la física se respeta porque la ecuación diferencial se resuelve numéricamente. La red neuronal no reemplaza por completo al modelo físico, sino que se introduce dentro de la dinámica del sistema.
+
+Una forma general de escribir este tipo de modelos es
+
+$$
+\frac{du}{dt} = f(u,t,\theta),
+$$
+
+donde una parte de $f$ puede estar definida por leyes físicas conocidas y otra parte puede ser aprendida a partir de datos.
+
+Por ejemplo,
+
+$$
+\frac{du}{dt}
+=
+f_{\text{física}}(u,t)
++
+f_{\text{NN}}(u,t;\theta).
+$$
+
+Rackauckas et al., *Universal Differential Equations for Scientific Machine Learning* (2020).
+
+---
+
+## Al final del día, todo es un problema de optimización
+
+Todo aquello que no conocemos o no sabemos describir exactamente se puede **parametrizar** de alguna manera.
+
+Una vez parametrizado el problema, el objetivo es encontrar los valores de los parámetros que mejor ajusten los datos, respeten las restricciones físicas o reproduzcan el comportamiento observado del sistema.
+
+Esto lleva naturalmente a algoritmos de búsqueda de óptimos.
+
+Salvo en casos de dimensión muy chica, no alcanza con probar valores manualmente. Es necesario calcular gradientes para saber cómo modificar los parámetros y mejorar la función objetivo.
+
+---
+
+## Programación diferencial
+
+Los modelos inversos están basados en **programación diferencial**.
+
+La programación diferencial es un paradigma de programación orientado a calcular gradientes o sensibilidades de programas de computadora.
+
+En este contexto, entrenar o calibrar modelos con muchos parámetros requiere diferenciar a través del modelo computacional.
+
+En particular, para modelos físicos y modelos híbridos, esto puede implicar diferenciar a través de un solver numérico.
+
+La idea general es:
+
+$$
+\text{modelo} \longrightarrow \text{predicción} \longrightarrow \text{función objetivo} \longrightarrow \text{gradientes}.
+$$
+
+Estos gradientes permiten ajustar los parámetros del modelo mediante algoritmos de optimización.
+
+
+
+### Métodos de programación diferencial
+
+Existen distintos métodos para calcular derivadas y sensibilidades en modelos computacionales.
+
+```{figure} figures/differential-programming-methods.png
+---
+width: 70%
+name: fig-differential-programming-methods
+---
+Métodos de programación diferencial según si son discretos o continuos, y si son forward o reverse.
+```
+
+Los métodos pueden clasificarse según dos ejes principales.
+
+Por un lado, pueden ser **discretos** o **continuos**. Los métodos discretos diferencian el programa o algoritmo ya discretizado. Los métodos continuos trabajan sobre la formulación continua del problema, por ejemplo sobre una ecuación diferencial.
+
+Por otro lado, pueden ser **forward** o **reverse**. Los métodos forward propagan sensibilidades hacia adelante, mientras que los métodos reverse propagan información hacia atrás, como ocurre en backpropagation.
+
+Algunos ejemplos son:
+
+- diferencias finitas,
+- diferenciación simbólica,
+- diferenciación automática forward,
+- diferenciación automática reverse,
+- métodos adjuntos discretos,
+- métodos adjuntos continuos,
+- ecuaciones de sensibilidad forward.
+
+
+
+### Aplicaciones
+
+La programación diferencial y el modelado híbrido aparecen en distintas áreas de las ciencias de la Tierra.
+
+Entre las aplicaciones principales se encuentran:
+
+- glaciología,
+- paleomagnetismo y tectónica de placas,
+- geomagnetismo.
+
+También pueden aparecer aplicaciones en otros sistemas físicos donde sea necesario combinar modelos, datos y calibración de parámetros.
+
+---
+
+## Qué vamos a tener que aprender
+
+Para trabajar con Physics-Informed Machine Learning es necesario combinar herramientas de varias áreas.
+
+Por el lado del modelado físico, necesitaremos trabajar con **ecuaciones diferenciales**.
+
+Por el lado computacional, necesitaremos herramientas de **análisis numérico**, ya que muchas ecuaciones no pueden resolverse de forma analítica y requieren métodos numéricos.
+
+También necesitaremos conceptos de **aprendizaje automático**, especialmente métodos de regresión como redes neuronales y procesos Gaussianos.
+
+Además, será importante incorporar herramientas de **estadística**, tanto frecuentista como bayesiana, incluyendo el modelado del ruido.
+
+Finalmente, aparecerán temas vinculados con **programación diferencial**, teoría de control y asimilación de datos.
+
+---
+
+## Logística general de la materia
+
+
+### Modalidad de clases
+
+- Horario: lunes y miércoles de 12 a 14 hs.
+- Opción remota.
+- Participación en clase.
+- English everywhere.
+- Horas de oficina: a determinar.
+
+### Evaluación
+
+La evaluación consistirá en un **proyecto final**.
+
+- Será la única instancia de evaluación.
+- No habrá exámenes.
+- El proyecto será individual, aunque se podrá trabajar en grupos.
+- Se deberá entregar un pequeño reporte final de aproximadamente 5 páginas.
+- Idealmente, el reporte deberá estar acompañado de código.
+- Habrá una sesión de posters hacia el final del curso, aproximadamente a mediados de junio.
+
+---
+
+## Notas del curso
+
+Todos los estudiantes que quieran aprobar el curso deberán abrir al menos un **Pull Request (PR)** a la página de la materia, aportando contenido discutido en el curso y/o correcciones o expansiones al contenido existente.
+
+Información sobre cómo hacer esto en la página de la materia:
+
+<https://facusapienza.org/DM2026-Curso/contribucion/>
+
+
+:::{important} Observaciones
+Antes de crear un PR para los apuntes de una clase, se debe esperar a que Facu suba la planilla con títulos e información básica de la clase.
+
+Los PR se evalúan en orden de completación. Si otro PR se cierra antes, es responsabilidad del PR más reciente reconciliar los cambios o resolver conflictos en caso de que los haya.
+:::
