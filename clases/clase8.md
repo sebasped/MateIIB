@@ -107,7 +107,7 @@ donde:
 
 ---
 
-Imaginemos un problema sin restricciones $h$. La dualidad lagrangiana nos dice, bajo ciertas hipótesis (dualidad fuerte) (\cite{boyd2004convex}):
+Imaginemos un problema sin restricciones $h$. La dualidad lagrangiana nos dice, bajo ciertas hipótesis (dualidad fuerte) ({cite}`boyd2004convex`):
 
 $$\max_{\lambda}\min_{\theta}\mathcal{L}(\theta,\lambda)=\min_{\theta}\max_{\lambda}\mathcal{L}(\theta,\lambda)$$
 
@@ -179,7 +179,7 @@ La ecuación (4) constituye el punto de partida para una PINN (*Physics-Informed
 
 # Physics-Informed Neural Networks (PINNs)
 
-Las PINNs fueron introducidas recientemente por Raissi, Perdikaris y Karniadakis en el siguiente trabajo: \cite{Raissi_Perdikaris_Karniadakis_2019}.
+Las PINNs fueron introducidas recientemente por Raissi, Perdikaris y Karniadakis en el siguiente trabajo: {cite}`Raissi_Perdikaris_Karniadakis_2019`.
 
 ## Caso ODE
 
@@ -289,7 +289,12 @@ $$
 ---
 
 Vamos a considerar una parametrización para el borde espacial, otra para la condición inicial y finalmente para los puntos del interior. Podemos visualizar esto en el siguiente diagrama 
-![Las cruces simbolizan la parametrización del borde espacial, los círculos el borde temporal, y los triangulos los puntos del interior.](../images/clase8.jpeg)
+:::{figure} ../images/clase8.jpeg
+:width: 100%
+:align: center
+
+Las cruces simbolizan la parametrización del borde espacial, los círculos el borde temporal, y los triángulos los puntos del interior.
+:::
 
 ## Función de costo total
 
