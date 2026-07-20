@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 334c3feb-7e60-444b-8fcc-57c06a928022
+  # id: 334c3feb-7e60-444b-8fcc-57c06a928022
   title: Matemática II para Biología
   # authors: Facundo Sapienza
   # description:
