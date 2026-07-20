@@ -1,6 +1,6 @@
 # Contribución
 
-El material de esta materia es **abierto**, lo cual quiere decir que cualquier persona puede usarlo para sus propios fines pedagógicos, y **colaborativo**, con lo cual contribuciones de alumnos son bienvenidas.
+El material es **abierto**, lo cual quiere decir que cualquier persona puede usarlo para sus propios fines, y **colaborativo**, con lo cual contribuciones son bienvenidas.
 Eso significa que los estudiantes también pueden ayudar a mejorarlo.
 
 Te invitamos a contribuir en cualquiera de los siguientes casos:
@@ -10,11 +10,17 @@ Te invitamos a contribuir en cualquiera de los siguientes casos:
 - 💻 Código que no funciona
 - ➕ Material adicional que sería útil
 
+:::{warning}
+En caso de no estar familiarizado con cómo contribuir a un repositorio en GitHub, por favor leer cuidadosamente las secciones [Reportar un problema](#reportar-un-problema-issue) y [Proponer cambios al material](#proponer-cambios-al-material-pull-request).
+¡Todo el contenido necesario y los links útiles se encuentran ahí!
+:::
+
+<!--
 :::{important}
 Todos los estudiantes que estén tomando la materia por los puntos de optativa deberán contribuir a los apuntes de la materia al menos una vez.
 Más información al final de esta página bajo `Requisito de contribuir a la materia`.
 :::
-
+-->
 
 ## ¿Por qué fomentar contribuciones?
 
@@ -89,16 +95,14 @@ Algunas recomendaciones:
 - Revisá que el material compile correctamente y la página web no se rompa.
 :::
 
+<!--
 ## Requisito de contribuir a la materia
 
 Todos los estudiantes que estén tomando la materia por los puntos de optativa deberán contribuir a los apuntes de la materia al menos una vez.
 Para ello, tenemos una planilla donde los estudiantes deben anotar su nombre y anotarse para estar a cargo de una de las clases (la misma está disponible por medio de las cadenas de mails de la materia).
 Idealmente, dos estudiantes se deben encargar de las notas de cada clase.
 
-:::{warning}
-En caso de no estar familiarizado con cómo contribuir a un repositorio en GitHub, por favor leer cuidadosamente las secciones [Reportar un problema](#reportar-un-problema-issue) y [Proponer cambios al material](#proponer-cambios-al-material-pull-request).
-Todo el contenido necesario y los links útiles se encuentran ahí!
-:::
+
 
 Al momento de abrir un PR para contribuir a la materia, por favor tener en cuenta los siguientes puntos:
 - 🤝 Los estudiantes encargados de los apuntes de una clase deben coordinar sus PRs. Hay varias maneras de hacer esto, pero debe haber un único PR por clase con commits de todos los estudiantes. Luego de que el PR se abra, Facu va a encargarse de hacer una revisión y posiblemente sugerir cambios y mejoras. Luego de iterar y haber conseguido una buena versión de las notas, los cambios se van a integrar en la página web de la materia.
@@ -110,5 +114,6 @@ Al momento de abrir un PR para contribuir a la materia, por favor tener en cuent
 - 📚 Notar que en las notas se pueden poner palabras clave que luego pueden ser incluidas en el [glosario](glosario.md).
 - 📖 En caso de necesitar una referencia bibliográfica, ¡por favor citarla! También se pueden agregar nuevas citas en el archivo [`bibliography.bib`](bibliography.bib).
 - 🏅 Agregar sus nombres junto con sus usuarios de GitHub en la [tabla al final del `README`](README.md). De esta manera podemos llevar un conteo de quienes ya han contribuido a la materia y también podemos dar crédito por el trabajo de los estudiantes.
+-->
 
 ¡Así es como se trabaja en GitHub! Bienvenido al mundo del software abierto. 🚀

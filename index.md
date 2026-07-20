@@ -1,7 +1,19 @@
 ---
-title: 'Datos, Ecuaciones Diferenciales e Inteligencia Artificial'
-subtitle: 'Departamento de Matematica, Primer Cuatrimestre 2026'
+title: 'Matemática II para Biología'
+subtitle: 'UBA-FCEyN, DM'
 ---
+
+Matemática II para Biología.
+
+Acá vas a encontrar esencialmente todo lo relacionado a la práctica de la materia, bastante enfocada a encarar los problemas utilizando la compu, más específicamente programando en Python.
+
+La materia no supone ningún conocimiento previo en programación. Por eso en parte la elección de Python, pues es un lenguaje relativamente amigable para aprender a programar desde cero.
+
+Através de Python se pueden aprender muchas técnicas básicas de programación, que luego se traducen naturalmente a otros lenguajes de programación si así se lo desea.
+
+Además Python es un lenguaje popular tanto en la academia como en la industria
+
+<!--
 
 Materia optativa para la Lic., Prof. y Doc en Cs. Matemáticas, Lic. y Doc. en Cs. de Datos. Estudiantes de otras carreras afines son también bienvenidos/as!
 
@@ -24,6 +36,8 @@ El curso va a basarse en los siguientes tres ejes:
 - **Aplicaciones**: Es clave entender como las necesidades de cada ciencia y de cada aplicación impactan (y en parte, dictan) el desarrollo de nueva metodología. Durante el curso, nos vamos a concentrar en como dichas técnicas son utilizadas hoy en dia en distintos campos de la geofísica.
 
 El curso esta diseñado para balancear estos tres elementos, de manera tal que estudiantes e investigadores que estén interesados en matemática pura, matemática aplicada, estadística, computación, física, y/o ciencias de datos puedan aprender algo interesante, motivador, y con un poco de suerte, inspirador.
+-->
+
 
 
 <!-- 

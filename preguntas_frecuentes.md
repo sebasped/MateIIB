@@ -1,11 +1,11 @@
 # Preguntas Frequentes
 
-:::{dropdown} ¿Se ve el inicio de clases afectado por el paro?
+:::{dropdown} ¿Costó mucho hacer este sitio?
 :class: dropdown
-Es muy probable que si.
-Revisar información al respecto en `General > Información`.
+No, se clonó de acá [Datos, Ecuaciones Diferenciales e Inteligencia Artificial](https://facusapienza.org/DM2026-Curso/).
 :::
 
+<!--
 :::{dropdown} ¿Puedo tomar el curso si soy estudiante de doctorado?
 :class: dropdown
 Si! En tal caso la materia deberia figurar como *Inteligencia Artificial, Datos y Ecuaciones Diferenciales* (en vez de *Datos, Ecuaciones Diferenciales e Inteligencia Artificial*).
@@ -25,3 +25,4 @@ No. La única instancia de evaluación de la materia va a ser el proyecto final,
 :class: dropdown
 Si. Las inscripciones a las materias deberian re-abrir pronto (puede que ahora mismo estén cerradas).
 :::
+-->

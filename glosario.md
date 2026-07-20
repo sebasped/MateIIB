@@ -5,8 +5,12 @@ title: Glosario
 # Glosario
 
 :::{glossary}
-Modelado híbrido
-: Enfoque de modelado que combina modelos físicos tradicionales con herramientas de aprendizaje automático y técnicas basadas en datos. - [Clase 1](clases/clase1.md)
+
+Jupyter Notebook
+: Entorno de programación que combina texto y código. En Python se llaman Jupyter Notebooks. Se abrevian NB (de NoteBook) y los archivos son `.ipynb` (`i`nteractive `py`thon `n`ote`b`ook).
+
+
+<!-- Enfoque de modelado que combina modelos físicos tradicionales con herramientas de aprendizaje automático y técnicas basadas en datos. - [Clase 1](clases/clase1.md) 
 
 Physics Informed Machine Learning (PIML)
 : Área del aprendizaje automático que incorpora conocimiento físico, ecuaciones diferenciales o restricciones científicas dentro del entrenamiento de modelos de machine learning. - [Clase 1](clases/clase1.md)
@@ -57,4 +61,6 @@ $$
 $$
 
 La última igualdad es válida porque el logaritmo es una función monótona creciente.
+-->
+
 :::

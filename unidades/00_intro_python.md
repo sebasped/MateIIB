@@ -1,6 +1,31 @@
 ---
-title: No1 - Introducción
+title: Introducción a Python
 ---
+
+## Prerequisitos
+
+Si necesitas ayuda sobre cómo instalar o usar Python sin instalarlo, andá acá XXXX.
+
+
+## Primer pasos en Python
+
+La idea siempre es trabajar sobre una {term}`Jupyter Notebook` incompleta e ir rellenándola. Esto ayuda a ganar confianza programando en Python. Eventualmente se subirá una posible resolución a XXX.
+
+En este unidad los objetivos son:
+- Amigarnos con la sintaxis básica de Python usándolo a través de las jupyter notebooks.
+- Aprender los conceptos básicos de programación que usaremos a lo largo del curso:
+  - Usar Python como "calculadora".
+  - Variables y asignaciones.
+  - Vectores y matrices.
+  - Ciclos y condicionales.
+  - Funciones y gráficos.
+
+
+## Material
+
+Acá van los videos de Python, y las citas bibliográficas.
+
+<!--
 
 ## Introducción
 
@@ -469,4 +494,4 @@ También necesitaremos conceptos de **aprendizaje automático**, especialmente m
 Además, será importante incorporar herramientas de **estadística**, tanto frecuentista como bayesiana, incluyendo el modelado del ruido.
 
 Finalmente, aparecerán temas vinculados con **programación diferencial**, teoría de control y asimilación de datos.
-
+-->
