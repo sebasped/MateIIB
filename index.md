@@ -5,13 +5,17 @@ subtitle: 'UBA-FCEyN, DM'
 
 Matemática II para Biología.
 
-Acá vas a encontrar esencialmente todo lo relacionado a la práctica de la materia, bastante enfocada a encarar los problemas utilizando la compu, más específicamente programando en Python.
+Acá vas a encontrar esencialmente todo lo relacionado a la práctica de la materia, bastante enfocada a encarar los problemas utilizando la compu, más específicamente programando en {term}`Python`.
 
-La materia no supone ningún conocimiento previo en programación. Por eso en parte la elección de Python, pues es un lenguaje relativamente amigable para aprender a programar desde cero.
+La materia no supone ningún conocimiento previo en programación. Por eso en parte la elección de Python, pues es un lenguaje relativamente amigable para aprender a programar desde cero, pero a la vez potente.
 
-Através de Python se pueden aprender muchas técnicas básicas de programación, que luego se traducen naturalmente a otros lenguajes de programación si así se lo desea.
+Através de Python se pueden aprender muchas técnicas básicas de programación, que luego se traducen naturalmente a otros lenguajes de programación.
 
-Además Python es un lenguaje popular tanto en la academia como en la industria
+Además Python es un lenguaje popular tanto en la academia como en la industria (por ejemplo ver el [Tiobe index](https://www.tiobe.com/tiobe-index/)).
+
+:::{note} Aclaración
+No defendemos a Python ni afirmamos que sea un buen o un mal lenguaje de programación. Lo elegimos porque entendemos que guarda una buena relación entre curva de aprendizaje y popularidad real de uso.
+:::
 
 <!--
 

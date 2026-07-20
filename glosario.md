@@ -9,6 +9,9 @@ title: Glosario
 Jupyter Notebook
 : Entorno de programación que combina texto y código. En Python se llaman Jupyter Notebooks. Se abrevian NB (de NoteBook) y los archivos son `.ipynb` (`i`nteractive `py`thon `n`ote`b`ook).
 
+Python
+: Lenguaje de programación.
+
 
 <!-- Enfoque de modelado que combina modelos físicos tradicionales con herramientas de aprendizaje automático y técnicas basadas en datos. - [Clase 1](clases/clase1.md) 
 

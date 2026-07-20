@@ -1,5 +1,7 @@
 # Bibliografía
 
+**TODO!!!**
+
 - Métodos estadísticos
     - {cite}`ramsay2017dynamic`: Específico a ecuaciones diferenciales y sistemas dinámicos.
     - {cite}`hastie2009elements`: Referencia bibliografica de preferencia para referencia (corta) a metodos de estadística y aprendizaje automático.
