@@ -22,11 +22,7 @@ En esta unidad los objetivos son:
 
 :::{note} NB Python para rellenar: intro a Python
 - [Se abre en Colab]().
-- [Para descargar](/code/00_intro/00_intro_python_incompleta.ipynb).
-- <a href="../code/00_intro/00_intro_python_incompleta.ipynb"
-   download="00_intro_python_incompleta.ipynb">
-  Para descargarla
-</a>
+- [Para descargar](../code/00_intro/00_intro_python_incompleta.ipynb).
 :::
 
 
