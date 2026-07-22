@@ -24,7 +24,7 @@ En esta unidad los objetivos son:
 - [Se abre en Colab]().
 - [Para descargar](https://github.com/sebasped/MateIIB/blob/main/code/00_intro_python_incompleta.ipynb) (a la derecha hay un botoncito ⤓).
 <!-- - [Para descargar](/code/00_intro_python_incompleta.ipynb). -->
-<!-- - [Para descargar](/code/00_intro/00_intro_python_incompleta.ipynb). -->
+- [Para descargar](/code/00_intro/00_intro_python_incompleta.ipynb).
 <!-- - [Para descargar](code/00_intro/00_intro_python_incompleta.ipynb). -->
 :::
 
