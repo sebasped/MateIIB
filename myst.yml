@@ -24,13 +24,14 @@ project:
     - title: Unidades
       children:
         - file: unidades/00_intro_python.md
-    - file: glosario.md
     # - file: referencias.md
     - title: Material y bibliografía
       children:
         - file: material/python_instalacion.md
         - file: material/python_uso_basico.md
+        - file: material/nbs_resueltas.md
         - file: referencias.md
+    - file: glosario.md
     - file: contribucion.md
     - file: preguntas_frecuentes.md
 site:

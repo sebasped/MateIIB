@@ -5,11 +5,14 @@ title: Introducción a Python
 ## Prerequisitos
 
 Si necesitas ayuda sobre cómo instalar o usar Python sin instalarlo, podés ir a [Python instalación](../material/python_instalacion.md).
+:::{warning} **Importante: sugerimos fuertemente desactivar la IA en Google Colab**
+Nos parece que atenta demasiado contra uno de los objetivos de la materia que es aprender un mínimo de programación.
+:::
 
 
 ## Primer pasos en Python
 
-La idea siempre es trabajar sobre una {term}`Jupyter Notebook` incompleta e ir rellenándola. Esto ayuda a ganar confianza programando en Python. Eventualmente se subirá una posible resolución a XXX.
+La idea siempre es trabajar sobre una {term}`Jupyter Notebook` incompleta e ir rellenándola. Esto ayuda a ganar confianza programando en Python. Eventualmente se subirá una posible resolución a [NBs resueltas](/material/nbs_resueltas.md).
 
 En esta unidad los objetivos son:
 - Amigarnos con la sintaxis básica de Python usándolo a través de las jupyter notebooks.
@@ -22,9 +25,12 @@ En esta unidad los objetivos son:
 
 :::{note} NB Python para rellenar: intro a Python
 - [Para descargar](/code/00_intro/00_intro_python_incompleta.ipynb).
-  - **Si se abre un archivo con texto, `Ctrl+s` lo guarda.**
+  - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 :::
 
+:::{seealso} Si necesitás reforzar
+Acá están los [videos uso básico Python](/material/python_uso_basico.md).
+:::
 
 <!-- ## Material -->
 
