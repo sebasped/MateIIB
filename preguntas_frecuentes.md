@@ -1,4 +1,4 @@
-# Preguntas Frequentes
+# Preguntas Frecuentes
 
 :::{dropdown} ¿Costó mucho hacer este sitio?
 :class: dropdown
