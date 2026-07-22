@@ -2,7 +2,7 @@
 
 :::{dropdown} ¿Costó mucho hacer este sitio?
 :class: dropdown
-No, se clonó de acá [Datos, Ecuaciones Diferenciales e Inteligencia Artificial](https://facusapienza.org/DM2026-Curso/).
+No, esencialmente se copió de acá [Datos, Ecuaciones Diferenciales e Inteligencia Artificial](https://facusapienza.org/DM2026-Curso/).
 :::
 
 <!--
