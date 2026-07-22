@@ -15,3 +15,7 @@ A pesar de que el polinomio de Taylor pueda ser un tema más bien teórico, hay 
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/01_aprox_funcs/01a_polinomio_Taylor_incompleta.ipynb)
 :::
+
+# Interpolación polinomial
+
+# Interpolación de Hermite y Splines
