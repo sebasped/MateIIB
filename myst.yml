@@ -16,32 +16,18 @@ project:
     #    - file: general/informacion.md
     #    - file: general/agenda.md
     #    - file: general/requisitos.md
-    #- file: anuncios.md
+    - file: noticias.md
+      title: Noticias y anuncios
     - title: Unidades
       children:
         - file: unidades/00_intro_python.md
-        # - file: unidades/unidad1.md
-        #- file: clases/clase2.md
-        #- file: clases/clase3.md
-        #- file: clases/clase4.md
-        #- file: clases/clase5.md
-        # - file: clases/clase6.md
-        # - file: clases/clase7.md
-        # - file: clases/clase8.md
-        # - file: clases/clase9.md
-        # - file: clases/clase10.md
-        # - file: clases/clase11.md
-        # - file: clases/clase12.md
-        # - file: clases/clase13.md
-        # - file: clases/clase14.md
-        # - file: clases/clase15.md
-        - file: unidades/clase_template.md
-    # - title: Projecto Final
-    #   children:
-    #     - file: proyecto/general_info.md
-    #     - file: proyecto/proyectos.md
     - file: glosario.md
-    - file: referencias.md
+    # - file: referencias.md
+    - title: Material y bibliografía
+      children:
+        - file: material/python_instalacion.md
+        - file: material/python_uso_basico.md
+        - file: referencias.md
     - file: contribucion.md
     - file: preguntas_frecuentes.md
 site:

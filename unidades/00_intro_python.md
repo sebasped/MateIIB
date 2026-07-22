@@ -4,14 +4,14 @@ title: Introducción a Python
 
 ## Prerequisitos
 
-Si necesitas ayuda sobre cómo instalar o usar Python sin instalarlo, andá acá XXXX.
+Si necesitas ayuda sobre cómo instalar o usar Python sin instalarlo, podés ir a [Python instalación](../material/python_instalacion.md).
 
 
 ## Primer pasos en Python
 
 La idea siempre es trabajar sobre una {term}`Jupyter Notebook` incompleta e ir rellenándola. Esto ayuda a ganar confianza programando en Python. Eventualmente se subirá una posible resolución a XXX.
 
-En este unidad los objetivos son:
+En esta unidad los objetivos son:
 - Amigarnos con la sintaxis básica de Python usándolo a través de las jupyter notebooks.
 - Aprender los conceptos básicos de programación que usaremos a lo largo del curso:
   - Usar Python como "calculadora".
@@ -20,10 +20,15 @@ En este unidad los objetivos son:
   - Ciclos y condicionales.
   - Funciones y gráficos.
 
+:::{note} NB Python para rellenar: intro a Python
+- [Se abre en Colab]().
+- [Para descargarla](../code/00_intro/00_intro_python_incompleta.ipynb).
+:::
 
-## Material
 
-Acá van los videos de Python, y las citas bibliográficas.
+<!-- ## Material -->
+
+<!-- Acá van los videos de Python, y las citas bibliográficas. -->
 
 <!--
 
