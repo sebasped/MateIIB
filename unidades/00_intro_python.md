@@ -1,8 +1,8 @@
 ---
-title: Introducción a Python
+title: 00 - Introducción a Python
 ---
 
-## Prerequisitos
+# Prerequisitos
 
 Si necesitas ayuda sobre cómo instalar o usar Python sin instalarlo, podés ir a [Python instalación](../material/python_instalacion.md).
 :::{warning} **Importante: sugerimos fuertemente desactivar la IA en Google Colab**
@@ -10,7 +10,7 @@ Nos parece que atenta demasiado contra uno de los objetivos de la materia que es
 :::
 
 
-## Primer pasos en Python
+# Primer pasos en Python
 
 La idea siempre es trabajar sobre una {term}`Jupyter Notebook` incompleta e ir rellenándola. Esto ayuda a ganar confianza programando en Python. Eventualmente se subirá una posible resolución a [NBs resueltas](/material/nbs_resueltas.md).
 

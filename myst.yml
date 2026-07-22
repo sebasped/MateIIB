@@ -24,7 +24,7 @@ project:
     - title: Unidades
       children:
         - file: unidades/00_intro_python.md
-    # - file: referencias.md
+        - file: unidades/01_aproximacion_funciones.md
     - title: Material y bibliografía
       children:
         - file: material/python_instalacion.md
