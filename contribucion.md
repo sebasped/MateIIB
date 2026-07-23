@@ -40,11 +40,11 @@ Un issue sirve para reportar errores, proponer mejoras, hacer preguntas sobre el
 
 :::{note} Cómo abrir un _issue_
 Podés encontrar información paso a paso sobre cómo abrir un issue en el siguiente [link](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue
-). Los issues se deben abrir en el repositorio asociado a la página web de este curso. Para abrir un issue nuevo, podés ir al siguiente [link](https://github.com/facusapienza21/DM2026-Curso/issues/new).
+). Los issues se deben abrir en el repositorio asociado a la página web de este curso. Para abrir un issue nuevo, podés ir al siguiente [link](https://github.com/sebasped/MateIIB/issues/new).
 :::
 
 :::{attention} Atención
-Antes de abrir un issue nuevo, asegurate de que dicho issue no existe. Podés chequear todos los issues en el siguiente [link](https://github.com/facusapienza21/DM2026-Curso/issues).
+Antes de abrir un issue nuevo, asegurate de que dicho issue no existe. Podés chequear todos los issues en el siguiente [link](https://github.com/sebasped/MateIIB/issues/).
 :::
 
 ## Proponer cambios al material (Pull Request)
