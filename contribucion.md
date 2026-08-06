@@ -85,7 +85,7 @@ Esta es la secuencia clásica `git add`, `git commit` y `git push` donde se agre
 
 Desde GitHub (la página web):
 - Abrí un PR. Podés encontrar más información de cómo abrir un PR en el siguiente [link](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/creating-a-pull-request).
-- Seleccioná el [repositorio original](https://github.com/facusapienza21/DM2026-Curso) como destino.
+- Seleccioná el [repositorio original](https://github.com/sebasped/MateIIB/) como destino.
 - Agregá al instructor como reviewer, así puedo evaluar los cambios y potencialmente dar feedback sobre más cambios.
 
 :::{tip} Buenas prácticas para contribuciones

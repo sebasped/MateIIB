@@ -1,5 +1,5 @@
 ---
-title: Plantilla de Clase - MyST Markdown
+title: MyST Markdown
 ---
 
 # Título de la Clase

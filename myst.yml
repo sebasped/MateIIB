@@ -34,6 +34,7 @@ project:
     - file: glosario.md
     - file: contribucion.md
     - file: preguntas_frecuentes.md
+    # - file: template.md
 site:
   template: book-theme
   options:
