@@ -2,7 +2,7 @@
 title: 01 - Aproximación de Funciones
 ---
 
-# Polinomio de Taylor
+# 01a - Polinomio de Taylor
 
 A pesar de que el polinomio de Taylor pueda ser un tema más bien teórico, hay varias cosas que podemos hacer en la compu que son útiles, a saber:
 - Graficar la función y sus polinomios de Taylor, todo junto, y observar que:
@@ -31,8 +31,8 @@ Error (este es el que se acota para estimarlo): $$|R_n(x)| = |f(x) - T_n(x)| = \
 
 
 
-
-# Interpolación polinomial
+---
+# 01b - Interpolación polinomial
 
 Explicación introductoria
 
