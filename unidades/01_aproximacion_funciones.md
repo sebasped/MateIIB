@@ -29,6 +29,25 @@ Error (este es el que se acota para estimarlo): $$|R_n(x)| = |f(x) - T_n(x)| = \
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/01_aprox_funcs/01a_polinomio_Taylor_incompleta.ipynb)
 :::
 
+
+
+
 # Interpolación polinomial
+
+Explicación introductoria
+
+:::{dropdown} Para tener a mano (hacer clic para expandir)
+BLA
+:::
+
+:::{note} NB Python para rellenar: interpolación polinomial
+- [Para descargar](/code/01_aprox_funcs/01b_interpolacion_polinomial_incompleta.ipynb).
+  - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/01_aprox_funcs/01b_interpolacion_polinomial_incompleta.ipynb)
+:::
+
+
+
+
 
 # Interpolación de Hermite y Splines
