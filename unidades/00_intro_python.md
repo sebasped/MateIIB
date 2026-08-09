@@ -30,7 +30,7 @@ En esta unidad los objetivos son:
 :::
 
 :::{seealso} Si necesitás reforzar
-Acá están los [videos uso básico Python](/material/python_uso_basico.md).
+Acá están los [videos uso básico Python](/material/python_uso_basico.md). También tenés el [material de Python/Programación](/referencias.md#para-python-y-programaci-n).
 :::
 
 <!-- ## Material -->
