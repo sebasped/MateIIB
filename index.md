@@ -3,6 +3,28 @@ title: 'Matemática II para Biología'
 subtitle: 'UBA-FCEyN, DM'
 ---
 
+:::{danger} ¡Chequeá este sitio seguido!
+Hacemos mejoras, agregados y modificaciones constantemente.
+:::
+
+## Financiamiento Universitario
+
+<!-- Situación actual de la Ley de Financiamiento Universitario: -->
+
+<iframe
+  src="https://sudhurok.github.io/reloj-ley-universitaria/reloj-contador.html"
+  width="100%"
+  height="300"
+  frameborder="0"
+  scrolling="no"
+  style="border:none; overflow:hidden;">
+</iframe>
+
+<!-- La Universidad Pública no puede esperar más. 🇦🇷 -->
+
+
+---
+## Información general
 Matemática II para Biología.
 
 Acá vas a encontrar esencialmente todo lo relacionado a la práctica de la materia, bastante enfocada a encarar los problemas utilizando la compu, más específicamente programando en {term}`Python`.
