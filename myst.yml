@@ -35,6 +35,7 @@ project:
     - file: contribucion.md
     - file: preguntas_frecuentes.md
     # - file: template.md
+    - file: bonus.md
 site:
   template: book-theme
   options:
