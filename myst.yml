@@ -20,7 +20,7 @@ project:
     #    - file: general/agenda.md
     #    - file: general/requisitos.md
     - file: noticias.md
-      title: Noticias y anuncios
+      # title: Noticias y anuncios
     - title: Unidades
       children:
         - file: unidades/00_intro_python.md
