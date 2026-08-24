@@ -19,7 +19,7 @@ project:
     #    - file: general/informacion.md
     #    - file: general/agenda.md
     #    - file: general/requisitos.md
-    - file: noticias.md
+    # - file: noticias.md
       # title: Noticias y anuncios
     - title: Unidades
       children:
