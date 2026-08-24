@@ -23,8 +23,8 @@ project:
       # title: Noticias y anuncios
     - title: Unidades
       children:
-        - file: unidades/00_intro_python.md
         - file: unidades/01_aproximacion_funciones.md
+        - file: unidades/00_intro_python.md
     - title: Material y bibliografía
       children:
         - file: material/python_instalacion.md
