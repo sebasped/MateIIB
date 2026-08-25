@@ -56,7 +56,7 @@ $$
 \left|f^{(n+1)}(\theta)\right|}
 {(n+1)!}
 (b-a)^{n+1}
-\qquad\text{( $x_i$ cualesquiera)}
+\qquad\text{($x_i$ cualesquiera)}
 $$
 
 $$
@@ -100,8 +100,8 @@ $$
 :::
 
 :::{note} NB Python para rellenar: interpolación Hermite y Splines
-**EN CONSTRUCCIÓN**.
 - [Para descargar](/code/01_aprox_funcs/01c_interpolacion_hermite_y_splines_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/01_aprox_funcs/01c_interpolacion_hermite_y_splines_incompleta.ipynb)
+
 :::
