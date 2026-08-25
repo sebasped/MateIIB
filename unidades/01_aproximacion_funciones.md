@@ -92,3 +92,16 @@ $$
 
 ---
 # 01c - Interpolación de Hermite y Splines
+
+**EN CONSTRUCCIÓN**.
+
+:::{dropdown} Para tener a mano (clic para expandir)
+**EN CONSTRUCCIÓN**.
+:::
+
+:::{note} NB Python para rellenar: interpolación Hermite y Splines
+**EN CONSTRUCCIÓN**.
+- [Para descargar](/code/01_aprox_funcs/01c_interpolacion_hermite_y_splines_incompleta.ipynb).
+  - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/01_aprox_funcs/01c_interpolacion_hermite_y_splines_incompleta.ipynb)
+:::
