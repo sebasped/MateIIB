@@ -19,8 +19,8 @@ project:
     #    - file: general/informacion.md
     #    - file: general/agenda.md
     #    - file: general/requisitos.md
-    # - file: noticias.md
-      # title: Noticias y anuncios
+    - file: noticias.md
+      # title: Noticias
     - title: Unidades
       children:
         - file: unidades/01_aproximacion_funciones.md
