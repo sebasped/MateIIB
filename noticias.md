@@ -1,6 +1,6 @@
 # Novedades
 
-:::{important} 25/Ago/2026: 01b - Interpolación polinomial
+:::{important} 25/Ago/2026: 01b - Interpolación polinomial ¡lista!
 <!-- dasd -->
 :::
 
