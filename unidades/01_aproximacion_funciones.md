@@ -93,11 +93,14 @@ $$
 ---
 # 01c - Interpolación de Hermite y Splines
 
-**EN CONSTRUCCIÓN**.
+- **Hermite:** misma idea que interpolación polinomial, con la diferencia que ahora interpolamos datos de la función y de sus derivadas.  
+(Ver ejemplo en la NB).
+- **Splines:** misma idea que interpolación polinomial, con la diferencia que "pegamos" muchas interpolaciones polinomiales, cada una realizada en un intervalo "pequeño" y con un polinomio de grado bajo (típicamente grado 1, 2 o 3).
+<!-- 
 
 :::{dropdown} Para tener a mano (clic para expandir)
 **EN CONSTRUCCIÓN**.
-:::
+::: -->
 
 :::{note} NB Python para rellenar: interpolación Hermite y Splines
 - [Para descargar](/code/01_aprox_funcs/01c_interpolacion_hermite_y_splines_incompleta.ipynb).
