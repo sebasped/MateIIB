@@ -6,7 +6,8 @@ title: 02 - Ecuaciones No Lineales
 
 # 02a - Método de Bisección
 
-<!-- **FALTA** -->
+- **Ventajas**: muy simple de aplicar. Sirve para cualquier función continua.
+- **Desventajas**: es lento. No se puede generalizar a sistemas de ecuaciones.
 
 :::{dropdown} Para tener a mano (clic para expandir)
 Pseudocódigo para Bisección:
@@ -41,16 +42,16 @@ Donde
 ---
 # 02b -Métodos de Newton-Raphson y otros (Secante, Regula-Falsi)
 
-**FALTA**
+<!-- **FALTA**
 
 :::{dropdown} Para tener a mano (clic para expandir)
 **FALTA**
-:::
+::: -->
 
 :::{note} NB Python para rellenar: interpolación polinomial
-- [Para descargar]().
+- [Para descargar](/code/02_ecs_no_lin/02b_newtonRaphson_otros_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/)
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02b_newtonRaphson_otros_incompleta.ipynb)
 :::
 
 
