@@ -25,7 +25,7 @@ project:
       children:
         - file: unidades/01_aproximacion_funciones.md
         - file: unidades/00_intro_python.md
-    - title: Material y bibliografía
+    - title: Bibliografía, material y recursos
       children:
         - file: material/python_instalacion.md
         - file: material/python_uso_basico.md
