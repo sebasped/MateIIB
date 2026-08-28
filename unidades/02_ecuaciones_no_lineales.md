@@ -40,7 +40,7 @@ Donde
 
 
 ---
-# 02b -Métodos de Newton-Raphson y otros (Secante, Regula-Falsi)
+# 02b - Métodos de Newton-Raphson y otros (Secante, Regula-Falsi)
 
 <!-- **FALTA**
 
