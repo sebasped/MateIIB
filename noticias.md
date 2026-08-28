@@ -1,4 +1,9 @@
 # Novedades
+
+:::{important} 28/Ago/2026: 02a - Método de Bisección ¡lista!
+<!-- dasd -->
+:::
+
 :::{important} 26/Ago/2026: 01c - Interpolación de Hermite y Splines ¡lista!
 <!-- dasd -->
 :::
