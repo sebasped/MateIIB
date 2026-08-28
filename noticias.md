@@ -1,6 +1,6 @@
 # Novedades
 
-:::{important} 28/Ago/2026: 02a - Método de Bisección ¡lista!
+:::{important} 28/Ago/2026: NBs 02a, b, c, d, y e ¡listas!
 <!-- dasd -->
 :::
 
