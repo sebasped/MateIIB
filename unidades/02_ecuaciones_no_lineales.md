@@ -48,7 +48,7 @@ Donde
 **FALTA**
 ::: -->
 
-:::{note} NB Python para rellenar: interpolación polinomial
+:::{note} NB Python para rellenar
 - [Para descargar](/code/02_ecs_no_lin/02b_newtonRaphson_otros_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02b_newtonRaphson_otros_incompleta.ipynb)
@@ -66,7 +66,7 @@ Donde
 **FALTA**
 ::: -->
 
-:::{note} NB Python para rellenar: interpolación polinomial
+:::{note} NB Python para rellenar
 - [Para descargar](/code/02_ecs_no_lin/02c_punto_fijo_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02c_punto_fijo_incompleta.ipynb)
@@ -76,30 +76,27 @@ Donde
 ---
 # 02d - Métodos para Sistemas de Ecuaciones: Punto Fijo y Newton-Raphson
 
-**FALTA**
+<!-- **FALTA**
+::: -->
 
-:::{dropdown} Para tener a mano (clic para expandir)
-**FALTA**
-:::
-
-:::{note} NB Python para rellenar: interpolación polinomial
-- [Para descargar]().
+:::{note} NB Python para mirar: **ya completa**
+- [Para descargar](/code/02_ecs_no_lin/02d_punto_fijo_y_newtonRaphson_para_sistemas_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/)
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02d_punto_fijo_y_newtonRaphson_para_sistemas_completa.ipynb)
 :::
 
 
 ---
 # 02e - Métodos de Punto Fijo para Sistemas de Ecuaciones **Lineales**: Jacobi y Gauss-Seidel
 
-**FALTA**
+<!-- **FALTA**
 
 :::{dropdown} Para tener a mano (clic para expandir)
 **FALTA**
-:::
+::: -->
 
-:::{note} NB Python para rellenar: interpolación polinomial
-- [Para descargar]().
+:::{note} NB Python para mirar: **ya completa**
+- [Para descargar](/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/)
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb)
 :::
