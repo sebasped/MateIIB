@@ -59,17 +59,17 @@ Donde
 
 ---
 # 02c - Métodos de Punto Fijo
-
+<!-- 
 **FALTA**
 
 :::{dropdown} Para tener a mano (clic para expandir)
 **FALTA**
-:::
+::: -->
 
 :::{note} NB Python para rellenar: interpolación polinomial
-- [Para descargar]().
+- [Para descargar](/code/02_ecs_no_lin/02c_punto_fijo_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/)
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02c_punto_fijo_incompleta.ipynb)
 :::
 
 
