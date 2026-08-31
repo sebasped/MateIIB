@@ -13,7 +13,7 @@
 - [Tutorial de la documentación oficial de Python](https://docs.python.org/3/tutorial/index.html).
 
 ## Para la materia propiamente dicha
-- [Apunte teórico de la materia](/material/Mate_II_Biologia_apunte.pdf).
+- [Apunte teórico de la materia (elaborado en pandemia por algunxs profes del DM)](/material/Mate_II_Biologia_apunte.pdf).
 - {cite}`Prunello2024`: excelente material online que mezcla explicaciones, ejemplos y Python. Sigue el espíritu de nuestra materia y cubre varios temas.
 - {cite}`Arevalo2021`: muy buen libro que sigue el espíritu de nuestra materia, y además tiene un apéndice con código Python de los temas del libro.
 - {cite}`BatistaCarlevaro`: otro muy buen libro que mezcla teoría, ejemplos y Python. La parte III incluye varios temas de nuestra materia.
