@@ -63,7 +63,7 @@ $$
 $$
 
 Obtenemos el modelo equivalente adimensionalizado. Las unidades quedaron escondidas en la nueva escala de tiempo $\tau$.  
-**¿Por qué se le dice tiempo característico a $t_c=\sqrt{\frac{L}{g}}$?** Porque cuando $t=t_c$ vale $\tau=1$. Es decir avanzar 1 unidad de tiempo en la nueva escala, es equivalente a haber avanzando $t_c$ en la escala de tiempo original.
+**¿Por qué se le dice tiempo característico a $t_c=\sqrt{L/g}$?** Porque cuando $t=t_c$ equivale $\tau=1$. Es decir avanzar 1 unidad de tiempo en la nueva escala, es equivalente a haber avanzando $t_c$ en la escala de tiempo original.
 
 ## Para leer más sobre esto
 - [Cap. 7 de este sitio: análisis dimensional](https://sites.google.com/unal.edu.co/hacia-la-mecanica-de-fluidos/cap%C3%ADtulos/cap%C3%ADtulo-7).
