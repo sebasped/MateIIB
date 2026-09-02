@@ -15,7 +15,7 @@ donde:
 - $\theta(t)$ es el ángulo que forma el péndulo con la vertical.
 - $t$ es el tiempo.
 
-Tanto $m$, $L$ y $g$ tienen unidades. El ángulo $\theta(t)$ es adimensional y el tiempo $t$ no aparece explícitamente en el modelo, asi que por esos dos no nos tenemos que preocupar.  
+Tanto $m$, $L$, $g$ y $t$ tienen unidades. El ángulo $\theta(t)$ es adimensional, asi que por ese no nos tenemos que preocupar.  
 La idea entonces es convertir el modelo original en uno equivalente sin unidades (adimensionalizado).  
 **¿Por qué está bueno adimensionalizar?** Porque hace que nuestros análisis sean independientes de las unidades de medición.
 
