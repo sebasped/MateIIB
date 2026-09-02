@@ -39,7 +39,7 @@ title: 03 - Ecuaciones Diferenciales
 
 ---
 ## 03c - `solve_ivp` para ecuaciones
-`solve_ivp` es la librería nativa de 
+`solve_ivp` es la librería nativa de `scipy` para resolver numéricamente ecuaciones diferenciales.
 <!-- 
 **FALTA**
 
@@ -47,7 +47,7 @@ title: 03 - Ecuaciones Diferenciales
 **FALTA**
 ::: -->
 
-:::{note} NB Python para rellenar
+:::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/03_edos/03c_solve_ivp_para_ecuaciones_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03c_solve_ivp_para_ecuaciones_completa.ipynb)
@@ -56,20 +56,20 @@ title: 03 - Ecuaciones Diferenciales
 
 # Sistema de ecuaciones
 
-# 02d - Métodos para Sistemas de Ecuaciones: Punto Fijo y Newton-Raphson
+# 03d - Métodos de Euler (explícito) y Runge-Kutta para sistemas
 
 <!-- **FALTA**
 ::: -->
 
 :::{note} NB Python para mirar: **ya completa**
-- [Para descargar](/code/02_ecs_no_lin/02d_punto_fijo_y_newtonRaphson_para_sistemas_completa.ipynb).
+- [Para descargar](/code/03_edos/03d_euler_rungeKutta_para_sistemas_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02d_punto_fijo_y_newtonRaphson_para_sistemas_completa.ipynb)
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03d_euler_rungeKutta_para_sistemas_completa.ipynb)
 :::
 
 
 ---
-# 02e - Métodos de Punto Fijo para Sistemas de Ecuaciones **Lineales**: Jacobi y Gauss-Seidel
+# 03e - `solve_ivp` para sistemas
 
 <!-- **FALTA**
 
@@ -78,7 +78,7 @@ title: 03 - Ecuaciones Diferenciales
 ::: -->
 
 :::{note} NB Python para mirar: **ya completa**
-- [Para descargar](/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb).
+- [Para descargar](/code/03_edos/03e_solve_ivp_para_sistemas_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb)
+- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03e_solve_ivp_para_sistemas_completa.ipynb)
 :::
