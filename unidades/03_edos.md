@@ -24,7 +24,7 @@ $$
 
 Entonces una cota para el error de Euler explícito en el tiempo final es:
 $$
-|E_N|=|x(t_F)-x_N| \leq \frac{e^{L(t_F-t_0)}-1}{L}\,C_{max}h^2.
+|E_N|=|x(t_F)-x_N| \leq \frac{e^{L(t_F-t_0)}-1}{L}\,C_{max}h.
 $$
 La idea es encontrar $h$ para que la cota del error sea menor a uno deseado (el resto de las cosas: $t_0, t_F, L, C_{max}$ son conocidas o calculables).
 :::
