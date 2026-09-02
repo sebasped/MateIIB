@@ -23,6 +23,7 @@ project:
       # title: Noticias
     - title: Unidades
       children:
+        - file: unidades/03_edos.md
         - file: unidades/02_ecuaciones_no_lineales.md
         - file: unidades/extra_adim.md
         - file: unidades/01_aproximacion_funciones.md
