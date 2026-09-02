@@ -52,7 +52,7 @@ Newton-Raphson:
 :align: center
 :name: fig-conv_global_newtonRaphson
 ```
-- Existen casos de convergencia local, es decir hay convergencia si $x_0$ pertenece a un intervalo determinado. Por ejemplo si
+- Existen casos de convergencia local, es decir hay convergencia si $x_0$ pertenece a un intervalo determinado. Por ejemplo si:
   - Si $f$ tiene dos derivadas continuas en $(a,b)$, 
   - $f(r)=0$, 
   - $f'(r)\neq 0$,
