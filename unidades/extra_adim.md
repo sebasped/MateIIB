@@ -35,11 +35,16 @@ $$
 \tau=\frac{t}{t_c} =t\sqrt{\frac{g}{L}}.
 $$
 Y veamos si nos sirve.
+:::{warning} Se vino el primer galerazo
+Esta técnica para adimensionalizar, y otras muchas, son típicas en Física, aunque por supuesto a primera vista puede parecer algo mágica.  
+Se puede leer el material del final para familiarizarse un poco con estas cosas.
+:::
+
 
 ## Transformación al modelo adimensionalizado
-Como $\tau = t\sqrt{\frac{g}{L}}$, ahora $\theta$ puede considerarse como una función de $\tau$: $\theta=\theta(\tau)$ (esto es simplemente porque $\tau \sqrt{\frac{L}{g}}= t$).
-
-Como $\theta$ depende de $\tau$, y $\tau$ depende de $t$, por regla de la cadena tenemos que:
+Como $\tau = t/t_c$, ahora $\theta$ puede considerarse como una función de $\tau$: $\theta=\theta(\tau)$ (esto es simplemente porque $\tau t_c= t$).  
+Ahora la idea es convertir el modelo original en otro que dependa del tiempo $\tau$ y ya no de $t$. Si elegimos las cosas bien, este proceso de conversión además eliminará el resto de las cosas con unidades (es decir eliminará $g$ y $L$).  
+Veamos si funciona. Como $\theta$ depende de $\tau$, y $\tau$ depende de $t$, por regla de la cadena tenemos que:
 $$
 \frac{d\theta}{dt} = \frac{d\theta}{d\tau} \frac{d\tau}{dt} = \frac{d\theta}{d\tau} \sqrt{\frac{g}{L}}
 $$
