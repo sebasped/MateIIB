@@ -27,6 +27,15 @@ $$
 |E_N|=|x(t_F)-x_N| \leq \frac{e^{L(t_F-t_0)}-1}{L}\,C_{max}h.
 $$
 La idea es encontrar $h$ para que la cota del error sea menor a uno deseado (el resto de las cosas: $t_0, t_F, L, C_{max}$ son conocidas o calculables).
+
+
+¿Cómo podemos estimar el orden de un método en general? Una idea es
+
+$$
+|E_N|\sim Ch^k \quad\Rightarrow\quad \log(|E_N|)\sim\log(C)+k\log(h)
+$$
+
+Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que el orden $k$ es la pendiente de "la recta".
 :::
 
 :::{note} NB Python para rellenar

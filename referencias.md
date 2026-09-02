@@ -19,6 +19,7 @@
 - {cite}`BatistaCarlevaro`: otro muy buen libro que mezcla teoría, ejemplos y Python. La parte III incluye varios temas de nuestra materia.
 - {cite}`Kong2020`: la [parte II](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html#part-ii-introduction-to-numerical-methods) de este libro online sigue bastante el espíritu de la materia. Mezcla explicaciones con código Python, y curbre casi todos los temas de nuestra materia.
 - {cite}`Mora2015`: excelente libro que cubre varios temas de nuestra materia. Tiene muchos ejemplos resueltos, tanto en papel como programando. Usa {term}`R` en vez de Python, pero de todos modos sigue bien el espíritu de nuestra materia.
+- {cite}`duran_lassalle_rossi`: apunte de Cálculo Numérico de profes de DM. Para profundizar un poco más.
 
 ## Recursos varios de interés
 - [Biopython](https://biopython.org/): herramientas en Python para Biología Computacional.
