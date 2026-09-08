@@ -44,6 +44,12 @@ Donde
 
 :::{dropdown} Para tener a mano (clic para expandir)
 Newton-Raphson:
+1. Tomo $x_0 \in [a,b]$.
+1. Para $n = 0,1,2,\ldots$:
+   $$
+   x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+   $$
+
 - Si converge, es mucho más rápido que Bisección (cuadrático versus lineal esencialmente).
 - **No** siempre converge. En general depende del $x_0$ inicial, aunque podría no converger para cualquier $x_0$ que se elija.
 - Existen casos de convergencia para cualquier $x_0$ que se elija, por ejemplo:
