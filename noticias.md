@@ -1,5 +1,17 @@
 # Novedades
 
+:::{important} 10/Sep/2026: subidas resueltas NBs 01b y c, y 02a.
+<!-- dasd -->
+:::
+
+:::{important} 02/Sep/2026: NBs 03a, b, c, d, y e ¡listas!
+<!-- dasd -->
+:::
+
+:::{important} 30/Ago/2026: subida resuelta NB 01a.
+<!-- dasd -->
+:::
+
 :::{important} 28/Ago/2026: NBs 02a, b, c, d, y e ¡listas!
 <!-- dasd -->
 :::
