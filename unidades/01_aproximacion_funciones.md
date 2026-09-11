@@ -108,3 +108,19 @@ $$
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/01_aprox_funcs/01c_interpolacion_hermite_y_splines_incompleta.ipynb)
 
 :::
+
+
+---
+# Aplicaciones en Biología, Cs. Naturales/Sociales
+- {cite}`Venn2024TemporalClassification`: Splines para clasificar series temporales ómicas.
+- {cite}`AvinoEsteban2025GeneExpression`: B-splines para reconstruir la expresión génica durante el desarrollo embrionario.
+- {cite}`Tang2024ZISSSmoothingSpline`: Smoothing splines para expresión génica de células individuales.
+- {cite}`Zdyb2025SplineRefinement`: Refinamiento de splines para microscopía de nematodos.
+- {cite}`Sieber2025BsplineMRI`: B-splines para optimizar pulsos de resonancia magnética.
+- {cite}`hugonnet2025pupilphaseseriesfast`: uso de polinomio de Taylor en organoides.
+- {cite}`tuzhilina2024statistical`: uso de splines para la estructura 3D del ADN.
+- {cite}`villa2025reducingphenotypestructuredpdemodels`: uso de polinomio de Taylor en la evolución del cáncer.
+- {cite}`hugonnet2025pupilphaseseriesfast`: uso de polinomio de Taylor en imágenes de tejidos biológicos.
+- {cite}`duda2024bayesiannonlinearsubspaceshrinkage`: uso de polinomio de Taylor modelos biológicos.
+- {cite}`islam2019splineinterpolationbaseddata`: uso de splines para tejidos biológicos.
+- {cite}`Ye_2015`: uso de polinomio de Taylor en redes complejas.
