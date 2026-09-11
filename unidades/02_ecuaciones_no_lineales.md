@@ -142,7 +142,6 @@ Cotas del error en el método de punto fijo:
 - {cite}`Guilhen2020Euterpe`: Newton-Raphson para analizar la tasa máxima de germinación de *Euterpe edulis*.
 - {cite}`GonzalezParra2011MichaelisMenten`: Bisección y Newton-Raphson para resolver la ecuación de Michaelis-Menten.
 - {cite}`Bankole2025Flocculation`: Secante y Newton-Raphson para modelar la cinética de floculación.
-- {cite}`Amaral2024NewtonSecant`: Newton-Secante para resolver sistemas de ecuaciones no suaves.
 - {cite}`Pradelli2025Angiogenesis`: Bisección y Newton-Raphson para modelar la angiogénesis tumoral.
 - {cite}`Okeke2025EbolaFixedPoint`: Método de punto fijo aplicado a la dinámica de una epidemia de Ebola.
 - {cite}`Harris2024SIRNewtonRaphson`: Newton-Raphson para estimar parámetros de un modelo SIR de COVID-19.
