@@ -133,3 +133,18 @@ Cotas del error en el método de punto fijo:
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb)
 :::
+
+
+
+---
+# Aplicaciones en Biología, Cs. Naturales/Sociales
+- {cite}`Pradelli2025Angiogenesis`: Bisección y Newton-Raphson para modelar la angiogénesis tumoral.
+- {cite}`Okeke2025EbolaFixedPoint`: Método de punto fijo aplicado a la dinámica de una epidemia de Ebola.
+- {cite}`Harris2024SIRNewtonRaphson`: Newton-Raphson para estimar parámetros de un modelo SIR de COVID-19.
+- {cite}`CsumaKovacs2025ReproductionNumbers`: Bisección para calcular números reproductivos en modelos epidemiológicos con estructura etaria.
+- {cite}`Liu2025ActiveLearning`: Bisección para identificar parámetros en modelos de sistemas biológicos.
+- {cite}`Irum2025TumorInvasion`: Punto fijo para simular la invasión de células tumorales.
+- {cite}`Saini2026ZikaNewton`: Newton-Raphson para un modelo epidemiológico del virus Zika.
+- {cite}`Saini2026MpoxNewton`: Newton-Raphson para simular la transmisión de Mpox mediante un modelo SEIR.
+- {cite}`Mohammed2025PredatorPreyFixedPoint`: Punto fijo para un modelo depredador-presa con dinámica de enfermedades.
+- {cite}`Zhao2024SIDARTHEFixedPoint`: Teorema de punto fijo para un modelo fraccionario de COVID-19.
