@@ -109,3 +109,18 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03e_solve_ivp_para_sistemas_completa.ipynb)
 :::
+
+
+
+---
+# Aplicaciones en Biología, Cs. Naturales/Sociales
+- {cite}`Xu2025MicrobiotaDynamics`: solve_ivp y Runge-Kutta para inferir interacciones entre especies de la microbiota.
+- {cite}`Rombouts2025EmbryonicCellCycle`: solve_ivp y BDF para modelar el ciclo celular embrionario.
+- {cite}`Deistler2025Jaxley`: Euler implícito para simular modelos biofísicos de dinámica neuronal.
+- {cite}`Ye2025BioticResistance`: solve_ivp y Runge-Kutta para simular invasiones microbianas.
+- {cite}`Anvari2025IRKSINDy`: Runge-Kutta implícito para identificar ecuaciones de sistemas biológicos.
+- {cite}`Coclite2025Replicator`: Runge-Kutta implícito para modelar la evolución de especies en redes.
+- {cite}`Takacs2024EpidemicRK`: Runge-Kutta de alto orden para resolver modelos epidemiológicos SEIR.
+- {cite}`Lotstedt2025CellIntegration`: Euler explícito, Euler implícito y Runge-Kutta para simular poblaciones celulares.
+- {cite}`Kara2024CART`: Runge-Kutta para modelar la terapia CAR-T contra tumores sólidos.
+- {cite}`Sardar2026HIVRungeKutta`: Runge-Kutta para modelar el tratamiento farmacológico de la infección por HIV.
