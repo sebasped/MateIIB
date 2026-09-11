@@ -114,6 +114,12 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 
 ---
 # Aplicaciones en Biología, Cs. Naturales/Sociales
+- {cite}`Santos2025ODEDesigner`: `solve_ivp` para simular modelos biológicos de EDO.
+- {cite}`Passos2025CardiovascularImmune`: `solve_ivp` y RK45 para modelar COVID-19.
+- {cite}`Lagos2025HostMobilityEchinococcus`: Runge-Kutta para modelar la transmisión de _Echinococcus granulosus_.
+- {cite}`Lagos2025BreakingEchinococcosis`: Runge-Kutta para modelar la equinococosis.
+- {cite}`Piovesan2025Mpox`: RK4 para modelar la dinámica de la mpox en Brasil.
+- {cite}`CarmonaMoreno2025Glioma`: EDO no lineales para modelar gliomas y su tratamiento.
 - {cite}`Xu2025MicrobiotaDynamics`: solve_ivp y Runge-Kutta para inferir interacciones entre especies de la microbiota.
 - {cite}`Rombouts2025EmbryonicCellCycle`: solve_ivp y BDF para modelar el ciclo celular embrionario.
 - {cite}`Deistler2025Jaxley`: Euler implícito para simular modelos biofísicos de dinámica neuronal.

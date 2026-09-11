@@ -112,6 +112,16 @@ $$
 
 ---
 # Aplicaciones en Biología, Cs. Naturales/Sociales
+- {cite}`daSilva2024SplineGeneRegulatory`: Splines para series temporales de expresión génica.
+- {cite}`Cantet2005PenalizedSplines`: P-splines en modelos genéticos animales.
+- {cite}`PradoJunior2021ThinPlateSplineTB`: Splines para el análisis espacial de tuberculosis.
+- {cite}`Cardinal2018RestrictedSplinesMetabolic`: Restricted cubic splines para relaciones no lineales en síndrome metabólico.
+- {cite}`Whetten2021SmoothingSplinesJaguar`: Smoothing splines para trayectorias de jaguares.
+- {cite}`Queiroz2022RestrictedSplinesNeonatal`: Restricted cubic splines para mortalidad neonatal.
+- {cite}`Lourenco2012RestrictedSplinesGrowth`: Restricted cubic splines para curvas de crecimiento infantil.
+- {cite}`Cousens2017ModellingStuntingSplines`: Suavizado spline para modelar crecimiento infantil.
+- {cite}`Shimozako2017TaylorLeishmaniasis`: Expansión de Taylor en modelos de leishmaniasis.
+- {cite}`Barbosa1996TaylorAnimalGrowth`: Series de Taylor en modelos de crecimiento animal.
 - {cite}`Venn2024TemporalClassification`: Splines para clasificar series temporales ómicas.
 - {cite}`AvinoEsteban2025GeneExpression`: B-splines para reconstruir la expresión génica durante el desarrollo embrionario.
 - {cite}`Tang2024ZISSSmoothingSpline`: Smoothing splines para expresión génica de células individuales.
