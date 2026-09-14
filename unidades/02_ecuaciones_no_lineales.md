@@ -6,12 +6,11 @@ title: 02 - Ecuaciones No Lineales
 
 # 02a - Método de Bisección
 
+:::{dropdown} Para tener a mano (clic para expandir)
 - **Ventajas**: muy simple de aplicar. Sirve para cualquier función continua.
 - **Desventajas**: es lento. No se puede generalizar a sistemas de ecuaciones.
 
-:::{dropdown} Para tener a mano (clic para expandir)
 Pseudocódigo para Bisección:
-
 1. Tomo $[a,b]$ un intervalo tal que $f(a)f(b)<0$.
 1. Calculo $ c = (a+b)/2 $
    - Si $f(c)=0$, entonces **¡listo!**
