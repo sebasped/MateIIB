@@ -121,7 +121,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 - {cite}`Piovesan2025Mpox`: RK4 para modelar la dinámica de la mpox en Brasil.
 - {cite}`CarmonaMoreno2025Glioma`: EDO no lineales para modelar gliomas y su tratamiento.
 - {cite}`Xu2025MicrobiotaDynamics`: solve_ivp y Runge-Kutta para inferir interacciones entre especies de la microbiota.
-- {cite}`Rombouts2025EmbryonicCellCycle`: solve_ivp y BDF para modelar el ciclo celular embrionario.
+- {cite}`Rombouts2025EmbryonicCellCycle`: `solve_ivp` y BDF para modelar el ciclo celular embrionario.
 - {cite}`Deistler2025Jaxley`: Euler implícito para simular modelos biofísicos de dinámica neuronal.
 - {cite}`Ye2025BioticResistance`: `solve_ivp` y Runge-Kutta para simular invasiones microbianas.
 - {cite}`Anvari2025IRKSINDy`: Runge-Kutta implícito para identificar ecuaciones de sistemas biológicos.
