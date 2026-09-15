@@ -56,6 +56,8 @@ Newton-Raphson:
 :width: 400px
 :align: center
 :name: fig-conv_global_newtonRaphson
+
+Figura extraída de las diapositivas de la teórica de la profe Mercedes Pérez Millán, del 2024 cuat. 1.
 ```
 - Existen casos de convergencia local, es decir hay convergencia si $x_0$ pertenece a un intervalo determinado. Por ejemplo si:
   - Si $f$ tiene dos derivadas continuas en $(a,b)$, 
