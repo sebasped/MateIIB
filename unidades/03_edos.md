@@ -123,7 +123,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 - {cite}`Xu2025MicrobiotaDynamics`: solve_ivp y Runge-Kutta para inferir interacciones entre especies de la microbiota.
 - {cite}`Rombouts2025EmbryonicCellCycle`: solve_ivp y BDF para modelar el ciclo celular embrionario.
 - {cite}`Deistler2025Jaxley`: Euler implícito para simular modelos biofísicos de dinámica neuronal.
-- {cite}`Ye2025BioticResistance`: solve_ivp y Runge-Kutta para simular invasiones microbianas.
+- {cite}`Ye2025BioticResistance`: `solve_ivp` y Runge-Kutta para simular invasiones microbianas.
 - {cite}`Anvari2025IRKSINDy`: Runge-Kutta implícito para identificar ecuaciones de sistemas biológicos.
 - {cite}`Coclite2025Replicator`: Runge-Kutta implícito para modelar la evolución de especies en redes.
 - {cite}`Takacs2024EpidemicRK`: Runge-Kutta de alto orden para resolver modelos epidemiológicos SEIR.
