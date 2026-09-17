@@ -23,6 +23,7 @@ project:
       # title: Noticias
     - title: Unidades
       children:
+        # - file: unidades/06_cuad_min.md
         # - file: unidades/05_markov.md
         # - file: unidades/04_fourier.md
         - file: unidades/03_edos.md
