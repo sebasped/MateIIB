@@ -12,6 +12,8 @@ BLA
 - [Para descargar](/code/07_analsis_datos/07a_componentes_principales_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/07_analsis_datos/07a_componentes_principales_incompleta.ipynb)
+- [datos.csv](/material/datos.csv)
+  - **Renombrarlo a `datos.csv`.**
 :::
 
 

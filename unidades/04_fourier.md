@@ -41,7 +41,8 @@ BLA
 - [Para descargar](/code/04_fourier/04c_fourier_aplicaciones.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04c_fourier_aplicaciones.ipynb)
-- [la_mayor_mono.wav](/code/04_fourier/la_mayor_mono.wav)
+- [la_mayor_mono.wav](/material/la_mayor_mono.wav)
+  - **Renombrarlo a `la_mayor_mono.wav`.**
 :::
 
 
