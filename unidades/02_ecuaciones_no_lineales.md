@@ -95,7 +95,7 @@ $$
 
 Cotas del error en el método de punto fijo:
 - $|x_n-x_{pf}|\leq L^n|x_0-x_{pf}|$
-- $ |x_n-x_{pf}|\leq\frac{L^n}{1-L}|x_1-x_0|$
+- $ |x_n-x_{pf}|\leq\dfrac{L^n}{1-L}|x_1-x_0|$
 - $|x_n-x_{pf}|\leq\frac{L}{1-L}|x_n-x_{n-1}|$
 
 :::
