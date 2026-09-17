@@ -33,10 +33,8 @@ BLA
 
 ---
 # Aplicaciones en Biología, Cs. Naturales/Sociales
-- {cite}`gutierrezgranados2024bats`: cadenas de Markov para estudiar la resiliencia ecológica de murciélagos en México.
-- {cite}`picinini2024zika`: modelo de Markov espacio-temporal para estudiar la transmisión del Zika en Colombia.
-- {cite}`gallegosherrada2023multidimensional`: cadena de Markov no homogénea para modelar excedencias de ozono y PM10 en México.
-- {cite}`luja2022jaguars`: cadenas de Markov para analizar cambios de hábitat y conservación del jaguar en México.
-- {cite}`lopezgarcia2025forest`: matriz de transición de Markov para modelar la recuperación forestal en México.
-- {cite}`arteaga2025forecasting`: cadenas de Markov para proyectar cambios de cobertura en los pastizales del Río de la Plata.
-- {cite}`nwaogu2024soil`: cadena de Markov para modelar cambios de uso del suelo y carbono en el Cerrado brasileño.
+- {cite}`duhalde2024highandian`: mínimos cuadrados ordinarios para modelar humedales altoandinos en Chile.
+- {cite}`citizenscience2025insects`: mínimos cuadrados ordinarios y generalizados para estudiar biodiversidad de insectos en México.
+- {cite}`ciarnoschi2025height`: mínimos cuadrados no lineales para modelar altura y diámetro de árboles en la Amazonia brasileña.
+- {cite}`pinus2025biomass`: mínimos cuadrados no lineales para estimar volumen y biomasa de *Pinus pseudostrobus*.
+- {cite}`reyesardila2024soil`: mínimos cuadrados parciales para analizar comunidades microbianas del suelo en Colombia.
