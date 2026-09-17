@@ -86,7 +86,7 @@ Sea $g:[a,b]\to\mathbb{R}$ continua tal que:
 1. $g([a,b])\subseteq[a,b]$.
 1. $g$ es contractiva en $[a,b]$ con constante $0\leq L<1$.
 
-Entonces el método de punto fijo $x_{n+1}=g(x_n)$ converge al **único punto fijo** $x_{pf}\in[a,b]$ de $g$.
+Entonces para cualquier $x_0\in[a,b]$, el método de punto fijo $x_{n+1}=g(x_n)$ converge al **único punto fijo** $x_{pf}\in[a,b]$ de $g$.
 
 Para garantizar que $g$ sea contractiva en $[a,b]$, alcanza con encontrar $0\leq L<1$ tal que
 $$
