@@ -83,7 +83,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 
 # Sistema de ecuaciones
 
-# 03d - Métodos de Euler (explícito) y Runge-Kutta para sistemas
+## 03d - Métodos de Euler (explícito) y Runge-Kutta para sistemas
 
 <!-- **FALTA**
 ::: -->
@@ -96,7 +96,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 
 
 ---
-# 03e - `solve_ivp` para sistemas
+## 03e - `solve_ivp` para sistemas
 
 <!-- **FALTA**
 
