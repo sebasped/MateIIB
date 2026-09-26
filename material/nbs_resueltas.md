@@ -9,6 +9,10 @@ Es importante que intentes hacerlas vos primero, **mucho más al principio** don
 
 :::{note} **Si hacés clic para descargar y se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 :::
+- [03a - Resuelta solamente hasta donde llegamos: Euler explícito sin error global](/code/03_edos/03a_euler_explicito_solamente_completa.ipynb).
+---
+- [02c - Punto Fijo resuelta](/code/02_ecs_no_lin/02c_punto_fijo_completa.ipynb).
+- [02b - Newton-Raphson y otros resuelta](/code/02_ecs_no_lin/02b_newtonRaphson_otros_completa.ipynb).
 - [02a - Bisección resuelta](/code/02_ecs_no_lin/02a_biseccion_completa.ipynb).
 ---
 - [01c - Interpolación Hermite y Splines resuelta](/code/01_aprox_funcs/01c_interpolacion_hermite_y_splines_completa.ipynb).
