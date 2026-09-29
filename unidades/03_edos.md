@@ -13,6 +13,11 @@ $$
 x'(t)=f(t,x(t)), \qquad x(t_0)=x_0.
 $$
 
+Método de Euler explícito:
+- $x_0 = x_0$,
+- $x_{n+1} = x_n + hf(t_n, x_n)$,
+- Con $h = \dfrac{t_f - t_0}{N}$ el tamaño del paso, y $N$ la cantidad de pasos.
+
 Error global de Euler explícito. Si
 $$
 \max_{t\in[t_0,t_F]}|\ddot{x}(t)|\leq C_{max}
