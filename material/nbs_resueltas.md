@@ -9,7 +9,7 @@ Es importante que intentes hacerlas vos primero, **mucho más al principio** don
 
 :::{note} **Si hacés clic para descargar y se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 :::
-- [03a - Resuelta solamente hasta donde llegamos: Euler explícito sin error global](/code/03_edos/03a_euler_explicito_solamente_completa.ipynb).
+- [03a - Resuelta solamente hasta donde llegamos: Euler explícito sin error global (ecuaciones, no sistemas)](/code/03_edos/03a_euler_explicito_solamente_completa.ipynb).
 ---
 - [02c - Punto Fijo resuelta](/code/02_ecs_no_lin/02c_punto_fijo_completa.ipynb).
 - [02b - Newton-Raphson y otros resuelta](/code/02_ecs_no_lin/02b_newtonRaphson_otros_completa.ipynb).
