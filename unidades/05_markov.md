@@ -11,7 +11,7 @@ BLA
 :::{note} NB Python para rellenar
 - [Para descargar](/code/05_markov/05a_markov_parte1_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/05_markov/05a_markov_parte1_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/05_markov/05a_markov_parte1_incompleta.ipynb) -->
 :::
 
 
@@ -25,7 +25,7 @@ BLA
 :::{note} NB Python para rellenar
 - [Para descargar](/code/05_markov/05b_markov_parte2_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/05_markov/05b_markov_parte2_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/05_markov/05b_markov_parte2_incompleta.ipynb) -->
 :::
 
 

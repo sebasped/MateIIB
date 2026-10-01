@@ -11,7 +11,7 @@ BLA
 :::{note} NB Python para rellenar
 - [Para descargar](/code/06_cuad_min/06a_cuadrados_minimos_parte1_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/06_cuad_min/06a_cuadrados_minimos_parte1_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/06_cuad_min/06a_cuadrados_minimos_parte1_incompleta.ipynb) -->
 :::
 
 
@@ -25,7 +25,7 @@ BLA
 :::{note} NB Python para rellenar
 - [Para descargar](/code/06_cuad_min/06b_cuadrados_minimos_parte2_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/06_cuad_min/06b_cuadrados_minimos_parte2_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/06_cuad_min/06b_cuadrados_minimos_parte2_incompleta.ipynb) -->
 :::
 
 
@@ -34,7 +34,7 @@ BLA
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/06_cuad_min/06c_cuad_min_ojo_con_el_ECM.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/06_cuad_min/06c_cuad_min_ojo_con_el_ECM.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/06_cuad_min/06c_cuad_min_ojo_con_el_ECM.ipynb) -->
 :::
 
 

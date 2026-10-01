@@ -33,7 +33,7 @@ Donde
 :::{note} NB Python para rellenar
 - [Para descargar](/code/02_ecs_no_lin/02a_biseccion_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02a_biseccion_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02a_biseccion_incompleta.ipynb) -->
 :::
 
 
@@ -72,7 +72,7 @@ Para ver más se puede consultar el cap. 4 de {cite}`duran_lassalle_rossi`.
 :::{note} NB Python para rellenar
 - [Para descargar](/code/02_ecs_no_lin/02b_newtonRaphson_otros_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02b_newtonRaphson_otros_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02b_newtonRaphson_otros_incompleta.ipynb) -->
 :::
 
 
@@ -103,7 +103,7 @@ Cotas del error en el método de punto fijo:
 :::{note} NB Python para rellenar
 - [Para descargar](/code/02_ecs_no_lin/02c_punto_fijo_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02c_punto_fijo_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02c_punto_fijo_incompleta.ipynb) -->
 :::
 
 
@@ -116,7 +116,7 @@ Cotas del error en el método de punto fijo:
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/02_ecs_no_lin/02d_punto_fijo_y_newtonRaphson_para_sistemas_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02d_punto_fijo_y_newtonRaphson_para_sistemas_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02d_punto_fijo_y_newtonRaphson_para_sistemas_completa.ipynb) -->
 :::
 
 
@@ -132,7 +132,7 @@ Cotas del error en el método de punto fijo:
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/02_ecs_no_lin/02e_Jacobi_GaussSeidel_para_sistemas_lineales_completa.ipynb) -->
 :::
 
 

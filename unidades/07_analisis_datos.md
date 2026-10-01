@@ -11,7 +11,7 @@ BLA
 :::{note} NB Python para rellenar
 - [Para descargar](/code/07_analisis_datos/07a_componentes_principales_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/07_analisis_datos/07a_componentes_principales_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/07_analisis_datos/07a_componentes_principales_incompleta.ipynb) -->
 - [datos.csv](/material/datos.csv)
   - **Renombrarlo a `datos.csv`.**
 :::
@@ -27,7 +27,7 @@ BLA
 :::{note} NB Python para rellenar
 - [Para descargar](/code/07_analisis_datos/07b_clustering_parte1_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/07_analisis_datos/07b_clustering_parte1_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/07_analisis_datos/07b_clustering_parte1_incompleta.ipynb) -->
 - [data1.csv](/material/datos.csv)
   - **Renombrarlo a `data1.csv`.**
 :::
@@ -38,7 +38,7 @@ BLA
 :::{note} NB Python para rellenar
 - [Para descargar](/code/07_analisis_datos/07c_clustering_parte2_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/07_analisis_datos/07c_clustering_parte2_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/07_analisis_datos/07c_clustering_parte2_incompleta.ipynb) -->
 :::
 
 

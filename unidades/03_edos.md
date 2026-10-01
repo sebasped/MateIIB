@@ -46,7 +46,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 :::{note} NB Python para rellenar
 - [Para descargar](/code/03_edos/03a_euler_taylor_rungekutta_incompleta.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03a_euler_taylor_rungekutta_incompleta.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03a_euler_taylor_rungekutta_incompleta.ipynb) -->
 :::
 
 
@@ -63,7 +63,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/03_edos/03b_euler_implicito_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03b_euler_implicito_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03b_euler_implicito_completa.ipynb) -->
 :::
 
 
@@ -82,7 +82,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/03_edos/03c_solve_ivp_para_ecuaciones_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03c_solve_ivp_para_ecuaciones_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03c_solve_ivp_para_ecuaciones_completa.ipynb) -->
 :::
 
 
@@ -96,7 +96,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/03_edos/03d_euler_rungeKutta_para_sistemas_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03d_euler_rungeKutta_para_sistemas_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03d_euler_rungeKutta_para_sistemas_completa.ipynb) -->
 :::
 
 
@@ -112,7 +112,7 @@ Es decir si graficamos $\log(|E_N|)$ en función de $\log(h)$, tendríamos que e
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/03_edos/03e_solve_ivp_para_sistemas_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03e_solve_ivp_para_sistemas_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/03_edos/03e_solve_ivp_para_sistemas_completa.ipynb) -->
 :::
 
 

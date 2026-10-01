@@ -11,7 +11,7 @@ BLA
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/04_fourier/04a_fourier_introduccion_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04a_fourier_introduccion_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04a_fourier_introduccion_completa.ipynb) -->
 :::
 
 
@@ -26,7 +26,7 @@ BLA
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/04_fourier/04b_aprox_por_fourier_completa.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04b_aprox_por_fourier_completa.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04b_aprox_por_fourier_completa.ipynb) -->
 :::
 
 
@@ -40,7 +40,7 @@ BLA
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/04_fourier/04c_fourier_aplicaciones.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04c_fourier_aplicaciones.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04c_fourier_aplicaciones.ipynb) -->
 - [la_mayor_mono.wav](/material/la_mayor_mono.wav)
   - **Renombrarlo a `la_mayor_mono.wav`.**
 :::
@@ -57,7 +57,7 @@ BLA
 :::{note} NB Python para mirar: **ya completa**
 - [Para descargar](/code/04_fourier/04d_antitransformada_fourier.ipynb).
   - **Si se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
-- [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04d_antitransformada_fourier.ipynb)
+<!-- - [Abrir en Colab](https://colab.research.google.com/github/sebasped/MateIIB/blob/main/code/04_fourier/04d_antitransformada_fourier.ipynb) -->
 :::
 
 
