@@ -1,7 +1,7 @@
 ---
 title: NBs resueltas
 ---
-<!-- Se movieron al final de cada unidad correspondiente. -->
+<!-- Se movieron al final de cada unidad correspondiente. Bla-->
 
 Acá vamos a ir ponieno **una** posible resolución de las NBs.
 :::{important} Intentalas vos primero
