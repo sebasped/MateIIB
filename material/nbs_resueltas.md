@@ -8,6 +8,12 @@ Acá vamos a ir ponieno **una** posible resolución de las NBs.
 Es importante que intentes hacerlas vos primero, **mucho más al principio** donde se necesita tomar confianza y familiaridad con Python y con Programación en general.
 :::
 
+:::{seealso}
+Recordá que muchas ya están subidas resueltas dentro de las unidades correspondientes.
+
+Por ejemplo la 02d de Newton-Raphson y Punto fijo para sistemas, ya está subida resuelta en [02 - Ecuaciones No Lineales](/unidades/02_ecuaciones_no_lineales.md)
+:::
+
 :::{note} **Si hacés clic para descargar y se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 :::
 
