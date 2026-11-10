@@ -1,6 +1,7 @@
 ---
 title: NBs resueltas
 ---
+<!-- Se movieron al final de cada unidad correspondiente. -->
 
 Acá vamos a ir ponieno **una** posible resolución de las NBs.
 :::{important} Intentalas vos primero
@@ -9,6 +10,18 @@ Es importante que intentes hacerlas vos primero, **mucho más al principio** don
 
 :::{note} **Si hacés clic para descargar y se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 :::
+
+- [07a Clustering resuelta](/code/07_analisis_datos/07c_clustering_parte2_completa.ipynb)
+- [07b Clustering resuelta](/code/07_analisis_datos/07b_clustering_parte1_completa.ipynb)
+- [07a Componentes Principales resuelta](/code/07_analisis_datos/07a_componentes_principales_completa.ipynb)
+---
+- [06b Cuad Min resuelta](/code/06_cuad_min/06b_cuadrados_minimos_parte2_completa.ipynb)
+- [06a Cuad Min resuelta](/code/06_cuad_min/06a_cuadrados_minimos_parte1_completa.ipynb)
+---
+- [05b Markov resuelta](/code/05_markov/05b_markov_parte2_completa.ipynb)
+- [05a Markov resuelta](/code/05_markov/05a_markov_parte1_completa.ipynb)
+---
+- [03a resuelta completa](/code/03_edos/03a_euler_taylor_rungekutta_completa.ipynb)
 - [03a - Resuelta solamente hasta donde llegamos: Euler explícito sin error global (ecuaciones, no sistemas)](/code/03_edos/03a_euler_explicito_solamente_completa.ipynb).
 ---
 - [02c - Punto Fijo resuelta](/code/02_ecs_no_lin/02c_punto_fijo_completa.ipynb).

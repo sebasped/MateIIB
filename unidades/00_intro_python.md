@@ -33,7 +33,7 @@ En esta unidad los objetivos son:
 Acá están los [videos uso básico Python](/material/python_uso_basico.md). También tenés el [material de Python/Programación](/referencias.md#para-python-y-programaci-n).
 :::
 
-
+<!-- 
 # NBs resueltas
 Acá vamos a ir ponieno **una** posible resolución de las NBs.
 :::{important} Intentalas vos primero
@@ -42,7 +42,7 @@ Es importante que intentes hacerlas vos primero, **mucho más al principio** don
 
 :::{note} **Si hacés clic para descargar y se abre un archivo con texto, `Ctrl+s` lo guarda y listo.**
 :::
-- [00 - Intro a Python resuelta](/code/00_intro/00_intro_python_completa.ipynb).
+- [00 - Intro a Python resuelta](/code/00_intro/00_intro_python_completa.ipynb). -->
 
 
 <!-- ## Material -->
